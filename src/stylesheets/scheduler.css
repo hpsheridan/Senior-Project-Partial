@@ -1,0 +1,43 @@
+.WeeklySchedule {
+    background-color: burlywood;
+    width: 90vw;
+    height: 90vh;
+    margin: 5vh 5vw 5vh 5vw;
+}
+
+#cur-scene {
+    width: 100%;
+    height: 100%;
+}
+
+.WeeklyView {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#WeeklyClasses {
+    width: 95%;
+    height: 100%;
+}
+
+rect {
+    fill: white;
+    stroke-width: 2px;
+    stroke: black;
+}
+
+button {
+    width: 10vh;
+    height: 3vh;
+}
+
+#TicMarks {
+    width: 5%;
+}
+
+.svg-text {
+    font-size: 1.5vw;
+    text-anchor: middle;
+}
